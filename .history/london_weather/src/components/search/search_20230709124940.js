@@ -5,7 +5,7 @@ import { GEO_API_URL, geoApiOptions } from "../../api";
 
 const Search = ({ onSearchChange }) => {
 
-    const [search, setSearch] = useState();
+    const [search, setSearch] = useState('');
 
     const loadOptions = (inputValue) => {
     

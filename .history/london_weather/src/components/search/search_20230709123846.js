@@ -18,8 +18,8 @@ const Search = ({ onSearchChange }) => {
                         return {
                             value: `${city.latitude}, ${city.longitude}`,
                             label: `${city.name}, ${city.countryCode}`,
-                        };
-                    }),
+                        }
+                    })
                 };
             })
             .catch((err) => console.log(err));

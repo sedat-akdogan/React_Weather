@@ -3,9 +3,7 @@ import './App.css';
 
 function App() {
 
-    const handleOnSearchChange = (searchData) => {
-        console.log(searchData);
-    }
+    const handleOnSearch
 
     return (
         <div className="container">

@@ -32,36 +32,36 @@
     width: 200px;
 }
 
-.temperature {
+temperature {
     font-weight: 600;
     font-size: 70px;
     width: auto;
     letter-spacing: -5px;
     margin: 10px 0;
-}
-
-.details {
+  }
+  
+  .details {
     width: 100%;
     padding-left: 20px;
-}
-
-.parameter-row {
+  }
+  
+  .parameter-row {
     display: flex;
     justify-content: space-between;
-}
-
-.parameter-label {
+  }
+  
+  .parameter-label {
     text-align: left;
     font-weight: 400;
     font-size: 12px;
-}
-
-.parameter-value {
+  }
+  
+  .parameter-value {
     text-align: right;
     font-weight: 600;
     font-size: 12px;
-}
-
-.parameter-label.top {
+  }
+  
+  .parameter-label.top {
     border-bottom: 1px solid #fff;
-}
+  }

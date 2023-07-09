@@ -1,5 +1,6 @@
 import "./current-weather.css";
 
+
 const CurrentWeather = () => {
     return (
         <div className="weather">
@@ -21,16 +22,16 @@ const CurrentWeather = () => {
                         <span className="parameter-value">Temp</span>
                     </div>
                     <div className="parameter-row">
-                        <span className="parameter-label">Wind</span>
-                        <span className="parameter-value">5 m/s</span>
+                        <span className="parameter-label">Feels like</span>
+                        <span className="parameter-value">Temp</span>
                     </div>
                     <div className="parameter-row">
-                        <span className="parameter-label">Humidity</span>
-                        <span className="parameter-value">71%</span>
+                        <span className="parameter-label">Feels like</span>
+                        <span className="parameter-value">Temp</span>
                     </div>
                     <div className="parameter-row">
-                        <span className="parameter-label">Pressure</span>
-                        <span className="parameter-value">15 hPa</span>
+                        <span className="parameter-label">Feels like</span>
+                        <span className="parameter-value">Temp</span>
                     </div>
                 </div>
             </div>

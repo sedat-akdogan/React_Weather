@@ -15,8 +15,7 @@ function App() {
 
         Promise.all([currentWeatherFetch, forcastFetch])
             .then(async (response) => {
-                const weatherResponse = await response[0].json();
-                const forcastResponse = await response[1].json();
+                const weatherResponse = await response[0].json
             })
     }
 

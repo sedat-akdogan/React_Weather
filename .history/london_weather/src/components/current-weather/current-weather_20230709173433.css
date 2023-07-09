@@ -11,23 +11,5 @@
 .top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-.city {
-    font-weight: 600;
-    font-size: 18px;
-    margin: 0;
-    letter-spacing: 1px;
-}
-
-.weather-description {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1;
-    margin: 0;
-}
-
-.weather-icon {
-    width: 200px;
+    
 }

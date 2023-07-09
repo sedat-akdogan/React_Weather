@@ -79,7 +79,7 @@ const Forecast = ({ data }) => {
                                     </div>
                                 </div>
                             </AccordionItemPanel>
-                        </AccordionItem>
+                        </AccordionItem>;
                     );
                 })}
             </Accordion>

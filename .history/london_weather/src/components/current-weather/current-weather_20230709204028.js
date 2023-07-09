@@ -22,15 +22,15 @@ const CurrentWeather = ({data}) => {
                     </div>
                     <div className="parameter-row">
                         <span className="parameter-label">Wind</span>
-                        <span className="parameter-value">{Math.round(data.wind.speed)} m/s</span>
+                        <span className="parameter-value">{Math.round(data.main.temp)} m/s</span>
                     </div>
                     <div className="parameter-row">
                         <span className="parameter-label">Humidity</span>
-                        <span className="parameter-value">{data.main.humidity} %</span>
+                        <span className="parameter-value">71%</span>
                     </div>
                     <div className="parameter-row">
                         <span className="parameter-label">Pressure</span>
-                        <span className="parameter-value">{data.main.pressure} hPa</span>
+                        <span className="parameter-value">15 hPa</span>
                     </div>
                 </div>
             </div>

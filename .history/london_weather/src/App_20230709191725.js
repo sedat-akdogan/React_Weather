@@ -2,7 +2,6 @@ import Search from './components/search/Search';
 import './App.css';
 import CurrentWeather from './components/current-weather/current-weather';
 import { WEATHER_API_URL, WEATHER_API_KEY} from './api';
-import { useState} from 'react';
 
 
 function App() {
@@ -22,13 +21,10 @@ function App() {
                 const weatherResponse = await response[0].json();
                 const forcastResponse = await response[1].json();
 
-                setCurrentWeather({ city: searchData.label, ...weatherResponse});
-                setForecast({ city: searchData.label, ...forcastResponse});
+                setCurrentWeather({weatherResponse});
+                setForecast({forcastResponse});
             })
-            .catch((err) => console.log(err));
     }
-    console.log(currentWeather);
-    console.log(forecast);
 
     return (
         <div className="container">

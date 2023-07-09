@@ -25,10 +25,8 @@ function App() {
                 setCurrentWeather({ city: searchData.label, ...weatherResponse});
                 setForecast({ city: searchData.label, ...forcastResponse});
             })
-            .catch((err) => console.log(err));
+            .catch((err))
     }
-    console.log(currentWeather);
-    console.log(forecast);
 
     return (
         <div className="container">

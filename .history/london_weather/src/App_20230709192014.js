@@ -23,12 +23,9 @@ function App() {
                 const forcastResponse = await response[1].json();
 
                 setCurrentWeather({ city: searchData.label, ...weatherResponse});
-                setForecast({ city: searchData.label, ...forcastResponse});
+                setForecast({forcastResponse});
             })
-            .catch((err) => console.log(err));
     }
-    console.log(currentWeather);
-    console.log(forecast);
 
     return (
         <div className="container">

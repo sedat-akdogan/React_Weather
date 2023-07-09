@@ -6,8 +6,8 @@ import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
 import "./App.css";
 
 function App() {
-    const [currentWeather, setCurrentWeather] = useState(0);
-    const [forecast, setForecast] = useState(0);
+    const [currentWeather, setCurrentWeather] = useState(null);
+    const [forecast, setForecast] = useState(null);
 
     const handleOnSearchChange = (searchData) => {
         const [lat, lon] = searchData.value.split(" ");

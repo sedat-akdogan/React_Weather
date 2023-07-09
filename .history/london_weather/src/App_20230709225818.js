@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
     const [currentWeather, setCurrentWeather] = useState(0);
-    const [forecast, setForecast] = useState(0);
+    const [forecast, setForecast] = useState();
 
     const handleOnSearchChange = (searchData) => {
         const [lat, lon] = searchData.value.split(" ");

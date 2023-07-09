@@ -3,9 +3,12 @@ import React, { useState } from "react";
 import { GEO_API_URL, geoApiOptions } from "../../api";
 
 
-function Search ({ onSearchChange }) {
-    const [search, setSearch] = useState(0);
+
+
+
+const Search = ({ onSearchChange }) => {
     
+
     const loadOptions = async (inputValue) => {
         try {
             const response = await fetch(
